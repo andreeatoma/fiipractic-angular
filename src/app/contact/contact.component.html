@@ -1,0 +1,30 @@
+<h3 class="ui header">
+	Add a comment
+</h3>
+<form class="ui form segment">
+	<div class="field">
+		<label for="name">Full name:</label>
+		<input name="name" #newname>
+	</div>
+
+	<div class="field">
+		<label for="description">
+			Message:
+		</label>
+		<input name="description" #newdescription>
+	</div>
+
+	<button (click)="addMessage(newname, newdescription)" class="ui positive centered button">
+		Publica
+	</button>
+</form>
+
+<div class="ui grid posts">
+ <div class="ui grid posts">
+	<app-message
+		*ngFor="let message of messages"
+		[message]="message">
+	</app-message>
+</div>
+</div>
+<app-map></app-map>

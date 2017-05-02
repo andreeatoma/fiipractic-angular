@@ -1,0 +1,39 @@
+<div class="app-root">
+	<div class="page-header">
+  		<div class="container ui grid">
+  			<div class="row">
+  				<div class="ten wide column">
+  					<div class="navlinks">
+  						<a [routerLink]="['/home']">Home</a>
+				    	<a [routerLink]="['/about']">About Us</a>
+				    	<a [routerLink]="['/contact']">Contact Us</a>
+  					</div>
+				</div>
+				<div class="six wide column">
+					<div class="search">
+						<div class="ui fluid category search">
+						  <div class="ui icon input">
+						    <input class="prompt" type="text" placeholder="Search...">
+						    <i class="search icon"></i>
+						  </div>
+  						<div class="results"></div>
+						</div>
+					</div>
+				</div>
+  			</div>
+		</div>
+		<div class="title">
+			<h1>Concept de desing interior</h1>
+		</div>
+		<div class="subtitle">
+			<h3>Inspiratie pentru casa ta</h3>
+		</div>
+	</div>
+
+	<div id="content">
+	  <div class="container">
+	    <router-outlet></router-outlet>
+	  </div>
+	</div>
+</div>
+

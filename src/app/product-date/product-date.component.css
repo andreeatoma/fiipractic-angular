@@ -1,0 +1,11 @@
+.app-product-date {
+	font-size: 12px;
+	font-family: 'Sacramento', cursive;
+	font-weight: bold;
+	color: #999;
+	padding: 5px;
+	position: absolute;
+	top: 43%;
+	left: 50%;
+	transform: translate(-50%, -43%);
+}

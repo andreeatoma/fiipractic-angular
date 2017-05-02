@@ -1,0 +1,8 @@
+.pos_r {
+	position: relative;
+}
+.card {
+	display: inline-block;
+	cursor: pointer;
+	text-align: left;
+}

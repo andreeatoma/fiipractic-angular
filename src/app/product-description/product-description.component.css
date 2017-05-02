@@ -1,0 +1,7 @@
+.app-product-description a {
+	color: #000;
+	font-size: 16px;
+	margin: 20px 0;
+	padding-left: 10px;
+	display: inline-block;
+}

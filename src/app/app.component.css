@@ -1,0 +1,44 @@
+.app-root {
+	text-align: center;
+}
+.navlinks, .search {
+	margin: 10px 50px auto;
+}
+.navlinks {
+	display: flex;
+	justify-content: center;
+}
+.navlinks a {
+	display: block;
+	padding: 0 35px;
+	color: #000;
+	text-transform: uppercase;
+	    transition: all 0.25s ease-out;
+    -o-transition: all 0.25s ease-out;
+    -moz-transition: all 0.25s ease-out;
+    -webkit-transition: all 0.25s ease-out;
+    border-bottom: 2px solid transparent;
+}
+.navlinks a:hover {
+	color: #ecdf98;
+    border-bottom: 2px solid #ecdf98;
+}
+.title {
+	margin: 30px auto;
+}
+.title h1 {
+	font: 60px Didza;
+    color: #000000;
+    text-align: center;
+    letter-spacing: 5px;
+    margin: 0 auto;
+    text-transform: uppercase;
+}
+.subtitle h3 {
+	font: normal normal 10px Georgia, Utopia, 'Palatino Linotype', Palatino, serif;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #555555;
+    text-align: center;
+    margin: 0 auto 30px auto;
+}

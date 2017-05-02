@@ -1,0 +1,13 @@
+.ztw-carousel-item img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+[_nghost-c5] {
+	top: 0;
+	left: 0;
+}
+[_nghost-c5][_ngcontent-c2] img {
+	top: 0;
+	left: 0;
+}
